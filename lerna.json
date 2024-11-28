@@ -1,4 +1,11 @@
 {
   "$schema": "node_modules/lerna/schemas/lerna-schema.json",
-  "version": "2.0.0"
+  "version": "2.0.0",
+  "npmClient": "npm",
+  "command": {
+    "publish": {
+      "registry": "http://localhost:4873"
+    }
+  },
+  "packages": ["packages/*"]
 }
